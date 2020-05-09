@@ -1,0 +1,60 @@
+body {
+  background-image: url('../photos/ZL-Sample Desk.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background: rgba(226, 219, 238, 0.85);
+  width: 100%;
+  box-shadow: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 130%;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #7246CE;
+}
+.nav-link:visited {
+  color: #7246CE;
+}
+
+.logo {
+  margin-left: 0px;
+  width: 320px;
+  height: 80px;
+  padding-right: 50px;
+}
+.textBox {
+  color: #d5dde3;
+  background-color: #7246CE;
+  padding: 8px;
+  border-radius: 15px;
+  margin-right: 2%;
+}
+
+.box-arrow {
+  width: 3%;
+  height: 30px;
+  color: 	#808080;
+  margin-right: 5%;
+}
+
+.text {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 8%;
+  margin-bottom: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 50px;
+  font-size: 150%;
+  color:#7246CE;
+  text-shadow:#A183E1 0.1em 0.1em 0.2em;
+}
