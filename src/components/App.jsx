@@ -39,15 +39,15 @@ Elevate</p>
           </div>
           <div className="subPage">
             <p className="subText">
-              <h1>Ziplyne</h1>
-            In-App Guidance + Self Service = The New
-SaaS Experience!</p>
-          <div className="images_subPage">
-          <img className="introImage" src="https://ziplyne.s3-us-west-1.amazonaws.com/Untitled+design+(15).png" alt="introImage" />
-          <img className="diamondImage" src="https://ziplyne.s3-us-west-1.amazonaws.com/Diamond.png" alt="diamondImage" />
-          </div>
-          <p className="introText">Ziplyne isn't just a tutorial or tool...It's a seamless omnichannel
-solution for employees and customers alike!</p>
+                <h1>Ziplyne</h1>
+                In-App Guidance + Self Service = The New
+                SaaS Experience!</p>
+            <div className="images_subPage">
+                <img className="introImage" src="https://ziplyne.s3-us-west-1.amazonaws.com/Untitled+design+(15).png" alt="introImage" />
+                <img className="diamondImage" src="https://ziplyne.s3-us-west-1.amazonaws.com/Diamond.png" alt="diamondImage" />
+            </div>
+            <p className="introText">Ziplyne isn't just a tutorial or tool...It's a seamless omnichannel
+  solution for employees and customers alike!</p>
           </div>
       </div>
     )

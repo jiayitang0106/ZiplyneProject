@@ -66,6 +66,7 @@ body {
   height: 900px;
   position: absolute;
   overflow: hidden;
+  display: flex;
 }
 .introImage {
   position: relative;
@@ -99,4 +100,31 @@ body {
   font-size: 30px;
   word-break: break-all;
   width: 500px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+.wave {
+  margin-top: -880px;
+  width: 100%;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  max-height: 350px;
+}
+
+.parallax>use {
+  animation: move-forever 5s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
 }
